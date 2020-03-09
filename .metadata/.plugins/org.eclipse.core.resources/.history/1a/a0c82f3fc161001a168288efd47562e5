@@ -1,0 +1,15 @@
+package level_1;
+
+public class AnIncompletePlayer {
+	public static void main(String[] args) {
+		AnIncompletePlayer anIncompletePlayer = new AnIncompletePlayer();
+		String[] participant = {""};
+		String[] completion = {""};
+		anIncompletePlayer.solution(participant, completion);
+	}
+	
+	public String solution(String[] participant, String[] completion) {
+		String answer = "";
+		return answer;
+	}
+}

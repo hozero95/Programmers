@@ -1,0 +1,13 @@
+package level_1;
+
+public class IHateTheSameNumber {
+	public static void main(String[] args) {
+		IHateTheSameNumber hateTheSameNumber = new IHateTheSameNumber();
+		int[] arr = {1, 1, 3, 3, 0, 1, 1};
+	}
+	
+	public int[] solution(int[] arr) {
+		int[] answer = {};
+		return answer;
+	}
+}

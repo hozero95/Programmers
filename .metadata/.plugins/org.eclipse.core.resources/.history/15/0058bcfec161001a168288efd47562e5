@@ -1,0 +1,18 @@
+package level_1;
+
+public class AnIncompletePlayer {
+	public static void main(String[] args) {
+		AnIncompletePlayer anIncompletePlayer = new AnIncompletePlayer();
+		String[] participant = {"leo", "kiki", "eden"};
+		String[] completion = {"eden", "kiki"};
+		anIncompletePlayer.solution(participant, completion);
+	}
+	
+	public String solution(String[] participant, String[] completion) {
+		String answer = "";
+		if(participant.length < 1 && participant.length >100000 && completion.length == participant.length - 1) {
+			return answer;
+		}
+		return answer;
+	}
+}

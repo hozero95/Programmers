@@ -1,0 +1,18 @@
+package level_1;
+
+import java.util.Calendar;
+
+public class Year2016 {
+	public static void main(String[] args) {
+		Year2016 year2016 = new Year2016();
+		int a = 5;
+		int b = 24;
+		System.out.println(year2016.solution(a, b));
+	}
+	
+	public String solution(int a, int b) {
+		String answer = "";
+		Calendar calendar = Calendar.getInstance();
+		return answer;
+	}
+}
