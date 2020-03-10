@@ -1,0 +1,14 @@
+package level_1;
+
+public class TheNumberOfPAndYInTheString {
+	public static void main(String[] args) {
+		TheNumberOfPAndYInTheString andYInTheString = new TheNumberOfPAndYInTheString();
+		String s = "pPoooyY";
+		System.out.println(andYInTheString.solution(s));
+	}
+	
+	public boolean solution(String s) {
+		boolean answer = true;
+		return answer;
+	}
+}
