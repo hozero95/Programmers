@@ -1,0 +1,13 @@
+package level_1;
+
+public class MockExam {
+	public static void main(String[] args) {
+		MockExam exam = new MockExam();
+		int[] answers = {1, 2, 3, 4, 5};
+	}
+	
+	public int[] solution(int[] answers) {
+		int[] answer = {};
+		return answer;
+	}
+}

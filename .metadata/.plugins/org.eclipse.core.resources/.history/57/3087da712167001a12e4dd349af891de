@@ -1,0 +1,23 @@
+package level_1;
+
+public class MockExam {
+	public static void main(String[] args) {
+		MockExam exam = new MockExam();
+		int[] answers = {1, 2, 3, 4, 5};
+		int[] answer = exam.solution(answers);
+		for(int i = 0; i < answer.length; i++) {
+			System.out.print(answer[i] + " ");
+		}
+	}
+	
+	public int[] solution(int[] answers) {
+		int[] stu1 = new int[answers.length];
+		int[] stu2 = new int[answers.length];
+		int[] stu3 = new int[answers.length];
+		for(int i = 0; i < answers.length; i++) {
+			stu1[i] = 1;
+		}
+		int[] answer = {};
+		return answer;
+	}
+}
